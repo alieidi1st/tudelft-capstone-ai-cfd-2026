@@ -1,0 +1,17 @@
+# Core - needed by both groups
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.10
+matplotlib>=3.7
+SALib>=1.4
+
+# Group B
+shap>=0.44
+
+# Group A (optional - the notebook skips it cleanly if absent)
+xgboost>=2.0
+
+# Notebook environment
+jupyterlab>=4.0
+ipykernel>=6.0

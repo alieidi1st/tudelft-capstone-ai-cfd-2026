@@ -1,0 +1,10 @@
+parameter,symbol,description,nominal,lower_bound,upper_bound
+alphaOmega1,$\alpha_{\omega1}$,omega diffusion coefficient (near-wall),0.5,0.3,0.7
+alphaOmega2,$\alpha_{\omega2}$,omega diffusion coefficient (outer layer),0.856,0.7,1.0
+alphaK1,$\alpha_{k1}$,k diffusion coefficient (near-wall),0.85,0.7,1.0
+alphaK2,$\alpha_{k2}$,k diffusion coefficient (outer layer),1.0,0.8,1.2
+beta1,$\beta_1$,omega destruction coefficient (near-wall),0.075,0.06,0.09
+beta2,$\beta_2$,omega destruction coefficient (outer),0.0828,0.07,0.1
+betaStar,$\beta^*$,k dissipation coefficient,0.09,0.0784,0.1024
+a1,$a_1$,eddy-viscosity limiter coefficient,0.31,0.31,0.4
+kappa,$\kappa$,von Karman constant,0.41,0.38,0.42
