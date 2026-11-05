@@ -1,0 +1,16 @@
+name: capstone
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - salib
+  - shap
+  - xgboost
+  - jupyterlab
+  - ipykernel
